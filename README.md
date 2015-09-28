@@ -27,7 +27,7 @@ On a single element, use any property or function you'd normally use on an Eleme
 Hard to really say, since it depends on what native methods you end up using. But mq is expected to work quite well in IE 9+ and other modern browsers (Chrome, Firefox, Safari). Open up an issue or PR if you know of anything major that doesn't work as expected across browser!
 
 #### Drawbacks
-- No standardization of methods/outputs (we are relying on the unrelyable fact that browsers will behave in the same way).
+- No standardization of methods/outputs (we are relying on the unreliable fact that browsers will behave in the same way).
 - No shortcuts
 
 #### Benefits
