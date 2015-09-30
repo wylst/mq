@@ -1,5 +1,6 @@
-var $ = document.querySelector.bind(document);
-var $$ = document.querySelectorAll.bind(document);
+var d = document, n = NodeList.prototype, a = Array.prototype;
+var $ = d.querySelector.bind(d);
+var $$ = d.querySelectorAll.bind(d);
 
-NodeList.prototype.forEach = Array.prototype.forEach;
-NodeList.prototype.map = Array.prototype.map;
+n.forEach = a.forEach;
+n.map = a.map;
